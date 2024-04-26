@@ -8,7 +8,8 @@ body{
     background: #393C43;
 }
 header{
-    position: sticky;
+    position: absolute;
+    top: 0;
     display: flex;
     width: 100vw;
     height: 95px;
@@ -66,4 +67,46 @@ header ul li a {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+.start{
+    width: 200px;
+    height: 60px;
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    border-radius: 15px;
+    position: absolute;
+    top: calc(1024px - 304px);
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: none;
+    cursor: pointer;
+}
+.arrow{
+    width: 70px;
+    height: 70px;
+    border-radius: 28px;
+    background-color: #00000031;
+    border: none;
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #fff;
+    cursor: pointer;
+}
+.arrowpos{
+    position: absolute;
+    top: calc(1024px - 269px);
+    left: 72.5%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 15px;
+}
+.specs{
+    position: absolute;
+    bottom: 0;
 }
