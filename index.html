@@ -24,7 +24,12 @@
             <h1>911 GT3 RS</h1>
         </div>
         <img src="/images/porsche.png" alt="Porsche 911 GT3 RS">
-        <button class="start">START ENGINE</button>
+        <img src="/images/mercedesBlSe.png" alt="mercedesBlackSeries">
+        <button class="start" onclick="playAudio()">START ENGINE</button>
+        <audio id="audioPlayer" controls style="display:none;">
+            <source src="/images/911sound.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+          </audio>
     </div>
     <div class="arrowpos">
         <button class="arrow"><</button>
@@ -43,7 +48,16 @@
             <h1>TOP SPEED</h1>
             <h4>302KM/H</h4>
         </div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/pdXOrp_PJ2Q?si=d-n-vHmW3Q1YeH20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
+    <iframe width="470" height="240" src="https://www.youtube.com/embed/pdXOrp_PJ2Q?si=d-n-vHmW3Q1YeH20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+    <script>
+        function playAudio() {
+          var audio = document.getElementById("audioPlayer");
+          audio.play();
+        }
+        </script>
 </body>
 </html>
