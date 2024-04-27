@@ -6,12 +6,14 @@
 }
 body{
     background: #393C43;
+    overflow: hidden;
 }
 header{
     position: absolute;
+    z-index: 200;
     top: 0;
     display: flex;
-    width: 98.9vw;
+    width: 100vw;
     height: 95px;
     justify-content: space-between;
     align-items: center;
@@ -68,7 +70,7 @@ header ul li a {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-.start{
+.startporsche{
     width: 200px;
     height: 60px;
     background-color: #fff;
@@ -84,6 +86,10 @@ header ul li a {
     transform: translate(-50%, -50%);
     border: none;
     cursor: pointer;
+    transition: left 1s ease;
+    -webkit-box-shadow: 0px 7px 46px 25px rgba(0,0,0,0.26);
+    -moz-box-shadow: 0px 7px 46px 25px rgba(0,0,0,0.26);
+    box-shadow: 0px 7px 46px 25px rgba(0,0,0,0.26);
 }
 .arrow{
     width: 70px;
@@ -106,7 +112,7 @@ header ul li a {
     display: flex;
     gap: 15px;
 }
-.specs{
+.specs-porsche{
     position: absolute;
     bottom: 0;
     height: 20vh;
@@ -116,8 +122,9 @@ header ul li a {
     justify-content: space-between;
     border-top: 1px solid #000;
     flex-wrap: wrap;
+    transition: bottom 1s ease;
 }
-.specs div{
+.specs-porsche div{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -126,19 +133,19 @@ header ul li a {
     border-right: 1px solid #000;  
     height: 18vh;
 }
-.specs h1{
+.specs-porsche h1{
     font-size: 40px;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     color: #fff;
 }
-.specs h4{
+.specs-porsche h4{
     font-size: 30px;
     font-family: "Poppins", sans-serif;
     font-weight: 200;
     color: #fff;
 }
-.specs :last-child{
+.specs-porsche :last-child{
     border: none;
 }
 iframe{
@@ -147,4 +154,98 @@ iframe{
     right: 0;
     border: none;
     box-shadow: 1px #000;
+    transition: bottom 1s ease;
+}
+
+.mercedesbs img{
+    position: absolute;
+    top: 40%;
+    left: 150%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+.mercedesbs h4{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    position: absolute;
+    top: calc(30% - 110px);
+    left: 150%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.mercedesbs h1{
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-align:start;
+    color: #fff;
+    position: absolute;
+    top: calc(35% - 110px);
+    left: 150%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.mercedesbs img, .porsche img {
+    transition: left 1s ease;
+}
+.startmercedes{
+    width: 200px;
+    height: 60px;
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    border-radius: 15px;
+    position: absolute;
+    top: calc(1024px - 350px);
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: none;
+    cursor: pointer;
+    transition: left 1s ease;
+    z-index: -1;
+    -webkit-box-shadow: 0px 7px 46px 25px rgba(0,0,0,0.26);
+    -moz-box-shadow: 0px 7px 46px 25px rgba(0,0,0,0.26);
+    box-shadow: 0px 7px 46px 25px rgba(0,0,0,0.26);
+}
+.specs-mercedes{
+    position: absolute;
+    bottom: -25%;
+    height: 20vh;
+    width: calc(98.9vw - 23vw);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #000;
+    flex-wrap: wrap;
+    transition: bottom 1s ease ;
+}
+.specs-mercedes div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    border-right: 1px solid #000;  
+    height: 18vh;
+}
+.specs-mercedes h1{
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+.specs-mercedes h4{
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    color: #fff;
+}
+.specs-mercedes :last-child{
+    border: none;
 }
