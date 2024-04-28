@@ -9,7 +9,7 @@ body{
     overflow-x: hidden;
 }
 header{
-    position: sticky;
+    position: fixed;
     z-index: 200;
     display: flex;
     width: 100vw;
@@ -45,6 +45,9 @@ header li a:hover{
 }
 header .active{
     color: #f83535;
+}
+.gallery{
+    padding-top: 95px;
 }
 .topper{
     display: flex;
