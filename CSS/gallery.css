@@ -57,6 +57,8 @@ header .active {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  overflow: hidden;
   width: 100vw;
   height: 350px;
   background: #262a32;
@@ -111,6 +113,8 @@ header .active {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
   width: 100vw;
   height: 350px;
   background: #2a2d35;
@@ -164,54 +168,70 @@ header .active {
   display: none;
 }
 
-.porschedetails p{
+.porschedetails .pargraph1{
   width: 608px;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   color: #fff;
   padding-left: 16vw;
-  margin-top: 5vh;
+  margin-top: 10vh;
+
 }
 .porscheimg3{
   position: absolute;
-    left: 6%;
-    top: 30%;
+    left: 12%;
+    top: 32%;
   height: 462px;
   width: 811px;
+  background-image:url(/images/gallery/porsche3.png);
+  background-repeat: no-repeat;
 }
 .porscheimg2{
   padding-top: 5vh;
   height: 462px;
-  width: 869.5;
+  width: 869.5px;
   position: absolute;
-  right: 5%;
-  top: 22%;
+  right: 12%;
+  top: 27%;
+  background-image:url(/images/gallery/porsche2.png);
+  background-repeat: no-repeat;
 }
 .porscheimg4{
   position: absolute;
-    left: 6.7%;
-    top: 69%;
+    left: 12%;
+    top: 71%;
   width: 516px;
   height: 365px;
+  background-image:url(/images/gallery/porsche4.png);
 }
 .porscheimg1{
   width: 600px;
   height: 290px;
   position: absolute;
-  right: 5%;
+  top: 2%;
+  right: 12%;
+  background-image:url(/images/gallery/porsche1.png);
 }
 .porschedesign{
   position: absolute;
-    right: 15%;
-    top: 69%;
+    right: 24%;
+    top: 71%;
 }
 .porschedesign h1{
-  padding-left: 30vw;
+  text-align: center;
   margin-top: 10vh;
   font-size: 24px;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     color: #fff;
+}
+.pargraph2{
+  width: 608px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #fff;
 }
 
