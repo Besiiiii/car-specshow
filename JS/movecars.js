@@ -12,9 +12,12 @@ document.addEventListener("DOMContentLoaded", function () {
     const porscheAudio = document.getElementById("porscheAudio");
     const mercedesAudio = document.getElementById("mercedesAudio");
     const porscheSpec = document.getElementById("porschespec");
-    const mercedesSpec= document.getElementById("mercedesspec");
+    const mercedesSpec = document.getElementById("mercedesspec");
     const porscheVideo = document.getElementById("porschevideo");
     const mercedesVideo = document.getElementById("mercedesvideo");
+    const porscheText = document.getElementById("pixi-container");
+    const porscheH2 = document.getElementById("porscheh2");
+    const mercedesH2 = document.getElementById("mercedesh2");
 
     leftButton.addEventListener("click", function () {
         moveCar("left");
@@ -30,11 +33,11 @@ document.addEventListener("DOMContentLoaded", function () {
         const step = 50; // Adjust this value to change the step of movement
         const porschePos = parseFloat(porscheImg.style.left) || 0;
         const mercedesPos = parseFloat(mercedesImg.style.left) || 0;
-    
+
         // Reset audio playback
         porscheAudio.pause();
         mercedesAudio.pause();
-    
+
         if (direction === "left") {
             // Move Porsche off the screen to the left
             porscheImg.style.left = "-150%";
@@ -60,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 porscheImg.style.left = "50%";
                 porscheH1.style.left = "25.6%";
                 porscheH4.style.left = "22%";
-                porscheSpec.style.bottom = "0"; 
+                porscheSpec.style.bottom = "0";
                 porscheVideo.style.bottom = "0";
             }, 10); // Delay to allow Mercedes to move out of the screen before resetting Porsche
         }
@@ -70,9 +73,13 @@ document.addEventListener("DOMContentLoaded", function () {
         if (direction === "left") {
             startPorscheButton.style.display = "none";
             startMercedesButton.style.display = "block";
+            mercedesH2.style.visibility = "visible";
+            porscheH2.style.visibility = "hidden";
         } else if (direction === "right") {
             startPorscheButton.style.display = "block";
             startMercedesButton.style.display = "none";
+            mercedesH2.style.visibility = "hidden";
+            porscheH2.style.visibility = "visible";
         }
     }
 });

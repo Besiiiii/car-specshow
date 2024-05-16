@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <title>Bobi's Garage</title>
     <link rel="shortcut icon" type="image/x-icon" href="images/logo.png" />
 </head>
+
 <body>
     <header>
         <img src="/images/logo.png" alt="logo">
@@ -14,7 +16,7 @@
             <ul>
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="/gallery.html">Gallery</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="/contact.html">Contact</a></li>
             </ul>
         </div>
     </header>
@@ -24,7 +26,8 @@
             <h4 id="porscheh4">Porsche</h4>
             <h1 id="porscheh1">911 GT3 RS</h1>
         </div>
-        <h2 class="porschetext"> PORSCHE </h2>
+        <h2 class="porschetext" id="porscheh2"> PORSCHE </h2>
+        <h2 class="mercedestext" id="mercedesh2"> MERCEDES </h2>
         <img src="/images/porsche.png" alt="Porsche 911 GT3 RS" id="porscheImg">
         <button class="startporsche" onclick="playAudio('porsche')">START ENGINE</button>
         <audio id="porscheAudio" controls style="display:none;">
@@ -81,10 +84,16 @@
             <h1>TOP SPEED</h1>
             <h4>315KM/H</h4>
         </div>
-    </div> 
+    </div>
 
-    <iframe id="mercedesvideo" width="470" height="240" src="https://www.youtube.com/embed/MK95sWSxwp8?si=fzSMGMArxB-E6IOH" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <iframe id="porschevideo" width="470" height="240" src="https://www.youtube.com/embed/pdXOrp_PJ2Q?si=d-n-vHmW3Q1YeH20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe id="mercedesvideo" width="470" height="240"
+        src="https://www.youtube.com/embed/MK95sWSxwp8?si=fzSMGMArxB-E6IOH"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    <iframe id="porschevideo" width="470" height="240"
+        src="https://www.youtube.com/embed/pdXOrp_PJ2Q?si=d-n-vHmW3Q1YeH20"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
     <script>
         function playAudio(car) {
             var audio;
@@ -99,4 +108,5 @@
         }
     </script>
 </body>
+
 </html>

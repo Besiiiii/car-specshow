@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background: #262A32;
     overflow: hidden;
 }
-header{
+
+header {
     position: absolute;
     z-index: 200;
     top: 0;
@@ -17,21 +19,25 @@ header{
     height: 95px;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(0deg, rgba(52,52,52,0) 0%, rgba(0, 0, 0, 0.747) 100%) ;
+    background: linear-gradient(0deg, rgba(52, 52, 52, 0) 0%, rgba(0, 0, 0, 0.747) 100%);
 }
-header img{
+
+header img {
     width: 100px;
     height: 95px;
     padding-left: 52px;
 }
-header ul{
+
+header ul {
     display: flex;
     gap: 67px;
     list-style: none;
 }
-header ul li:last-child{
+
+header ul li:last-child {
     padding-right: 45px;
 }
+
 header ul li a {
     text-decoration: none;
     color: #fff;
@@ -41,14 +47,15 @@ header ul li a {
     font-size: 24px;
 }
 
-header li a:hover{
+header li a:hover {
     color: #d11f1f;
 }
-header .active{
+
+header .active {
     color: #f83535;
 }
 
-.porsche h4{
+.porsche h4 {
     font-size: 24px;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -59,7 +66,8 @@ header .active{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-.porsche h1{
+
+.porsche h1 {
     font-size: 48px;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -70,14 +78,16 @@ header .active{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-.porsche img{
+
+.porsche img {
     position: absolute;
     top: 40%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-.startporsche{
+
+.startporsche {
     width: 200px;
     height: 60px;
     background-color: #fff;
@@ -94,21 +104,24 @@ header .active{
     border: none;
     cursor: pointer;
     transition: left 1s ease;
-    -webkit-box-shadow: 0px 7px 46px 25px rgba(0,0,0,0.26);
-    -moz-box-shadow: 0px 7px 46px 25px rgba(0,0,0,0.26);
-    box-shadow: 0px 7px 46px 25px rgba(0,0,0,0.26);
+    -webkit-box-shadow: 0px 7px 46px 25px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 0px 7px 46px 25px rgba(0, 0, 0, 0.26);
+    box-shadow: 0px 7px 46px 25px rgba(0, 0, 0, 0.26);
 }
-.startporsche:hover{
-    -webkit-box-shadow: 0px 7px 46px 25px rgba(0,0,0,0.630);
-    -moz-box-shadow: 0px 7px 46px 25px rgba(0,0,0,0.690);
+
+.startporsche:hover {
+    -webkit-box-shadow: 0px 7px 46px 25px rgba(0, 0, 0, 0.630);
+    -moz-box-shadow: 0px 7px 46px 25px rgba(0, 0, 0, 0.690);
     box-shadow: 0px 7px 46px 25px rgba(0, 0, 0, 0.692);
 }
-.startmercedes:hover{
-    -webkit-box-shadow: 0px 7px 46px 25px rgba(0,0,0,0.630);
-    -moz-box-shadow: 0px 7px 46px 25px rgba(0,0,0,0.690);
+
+.startmercedes:hover {
+    -webkit-box-shadow: 0px 7px 46px 25px rgba(0, 0, 0, 0.630);
+    -moz-box-shadow: 0px 7px 46px 25px rgba(0, 0, 0, 0.690);
     box-shadow: 0px 7px 46px 25px rgba(0, 0, 0, 0.692);
 }
-.arrow{
+
+.arrow {
     width: 70px;
     height: 70px;
     border-radius: 28px;
@@ -120,7 +133,8 @@ header .active{
     color: #fff;
     cursor: pointer;
 }
-.arrowpos{
+
+.arrowpos {
     position: absolute;
     top: calc(1024px - 380px);
     right: 0;
@@ -129,10 +143,12 @@ header .active{
     display: flex;
     gap: 15px;
 }
-.arrow:hover{
+
+.arrow:hover {
     background-color: #00000073;
 }
-.specs-porsche{
+
+.specs-porsche {
     position: absolute;
     bottom: 0;
     height: 20vh;
@@ -144,31 +160,36 @@ header .active{
     flex-wrap: wrap;
     transition: bottom 1s ease;
 }
-.specs-porsche div{
+
+.specs-porsche div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 25vw;
-    border-right: 1px solid #000;  
+    border-right: 1px solid #000;
     height: 18vh;
 }
-.specs-porsche h1{
+
+.specs-porsche h1 {
     font-size: 40px;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     color: #fff;
 }
-.specs-porsche h4{
+
+.specs-porsche h4 {
     font-size: 30px;
     font-family: "Poppins", sans-serif;
     font-weight: 200;
     color: #fff;
 }
-.specs-porsche :last-child{
+
+.specs-porsche :last-child {
     border: none;
 }
-iframe{
+
+iframe {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -177,15 +198,16 @@ iframe{
     transition: bottom 1s ease;
 }
 
-.mercedesbs img{
+.mercedesbs img {
     position: absolute;
     top: 40%;
     left: 150%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    z-index: -1;
+    z-index: 2;
 }
-.mercedesbs h4{
+
+.mercedesbs h4 {
     font-size: 24px;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -196,11 +218,12 @@ iframe{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-.mercedesbs h1{
+
+.mercedesbs h1 {
     font-size: 48px;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
-    text-align:start;
+    text-align: start;
     color: #fff;
     position: absolute;
     top: calc(35% - 110px);
@@ -208,10 +231,13 @@ iframe{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-.mercedesbs img, .porsche img {
+
+.mercedesbs img,
+.porsche img {
     transition: left 1s ease;
 }
-.startmercedes{
+
+.startmercedes {
     width: 200px;
     height: 60px;
     background-color: #fff;
@@ -229,11 +255,12 @@ iframe{
     cursor: pointer;
     transition: left 1s ease;
     z-index: -1;
-    -webkit-box-shadow: 0px 7px 46px 25px rgba(0,0,0,0.26);
-    -moz-box-shadow: 0px 7px 46px 25px rgba(0,0,0,0.26);
-    box-shadow: 0px 7px 46px 25px rgba(0,0,0,0.26);
+    -webkit-box-shadow: 0px 7px 46px 25px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 0px 7px 46px 25px rgba(0, 0, 0, 0.26);
+    box-shadow: 0px 7px 46px 25px rgba(0, 0, 0, 0.26);
 }
-.specs-mercedes{
+
+.specs-mercedes {
     position: absolute;
     bottom: -25%;
     height: 20vh;
@@ -243,51 +270,74 @@ iframe{
     justify-content: space-between;
     border-top: 1px solid #000;
     flex-wrap: wrap;
-    transition: bottom 1s ease ;
+    transition: bottom 1s ease;
 }
-.specs-mercedes div{
+
+.specs-mercedes div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 25vw;
-    border-right: 1px solid #000;  
+    border-right: 1px solid #000;
     height: 18vh;
 }
-.specs-mercedes h1{
+
+.specs-mercedes h1 {
     font-size: 40px;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     color: #fff;
 }
-.specs-mercedes h4{
+
+.specs-mercedes h4 {
     font-size: 30px;
     font-family: "Poppins", sans-serif;
     font-weight: 200;
     color: #fff;
 }
-.specs-mercedes :last-child{
+
+.specs-mercedes :last-child {
     border: none;
 }
-.porschetext{
+
+.porschetext {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 300px;
     cursor: default;
     position: absolute;
-    top: 45%;
+    top: 42%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     z-index: 0;
     color: #262A32;
+    transition: bottom 1s ease;
 }
+
 #pixi-container {
     position: absolute;
-    top: 80%;
+    top: 76%;
     left: 60%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     width: 100vw;
     height: 100vh;
+    transition: bottom 1s ease;
+}
+
+.mercedestext {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 280px;
+    cursor: default;
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    color: #262A32;
+    visibility: hidden;
 }

@@ -1,11 +1,11 @@
 // Wait for the document to load before running the script
 document.addEventListener('DOMContentLoaded', () => {
     // Create a new application with specific width and height
-    const app = new PIXI.Application({ 
-        antialias: true, 
-        backgroundColor: 0x262A32, 
-        width: 1500, 
-        height: 300 
+    const app = new PIXI.Application({
+        antialias: true,
+        backgroundColor: 0x262A32,
+        width: 1550,
+        height: 300
     });
 
     // Append the application canvas to the pixi-container
