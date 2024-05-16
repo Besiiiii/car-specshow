@@ -269,3 +269,25 @@ iframe{
 .specs-mercedes :last-child{
     border: none;
 }
+.porschetext{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 300px;
+    cursor: default;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    color: #262A32;
+}
+#pixi-container {
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+}

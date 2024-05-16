@@ -18,11 +18,13 @@
             </ul>
         </div>
     </header>
+    <div id="pixi-container"></div>
     <div class="porsche">
         <div>
             <h4 id="porscheh4">Porsche</h4>
             <h1 id="porscheh1">911 GT3 RS</h1>
         </div>
+        <h2 class="porschetext"> PORSCHE </h2>
         <img src="/images/porsche.png" alt="Porsche 911 GT3 RS" id="porscheImg">
         <button class="startporsche" onclick="playAudio('porsche')">START ENGINE</button>
         <audio id="porscheAudio" controls style="display:none;">
@@ -48,6 +50,8 @@
     </div>
 
     <script src="/JS/movecars.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pixi.js@7.x/dist/pixi.min.js"></script>
+    <script src="/JS/index.js"></script>
 
     <div class="specs-porsche" id="porschespec">
         <div>
