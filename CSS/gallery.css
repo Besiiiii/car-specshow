@@ -21,6 +21,7 @@ header {
     rgba(52, 52, 52, 0) 0%,
     rgba(0, 0, 0, 0.747) 100%
   );
+  backdrop-filter: blur(5px);
 }
 header img {
   width: 100px;
@@ -226,7 +227,83 @@ header .active {
     font-weight: 700;
     color: #fff;
 }
-.pargraph2{
+.porschedetails .pargraph2{
+  width: 608px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+.benzdetails {
+  width: 100vw;
+  height: 1254px;
+  background-color: #262a32;
+  position: relative;
+  border-bottom: 1px solid #ffffff6b;
+  display: none;
+}
+
+.benzdetails .pargraph1{
+  width: 608px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #fff;
+  padding-left: 50vw;
+  margin-top: 8vh;
+
+}
+.benzimg3{
+  position: absolute;
+    right: 11%;
+    top: 32%;
+  height: 462px;
+  width: 811px;
+  background-image:url(/images/gallery/benz3.png);
+  background-repeat: no-repeat;
+}
+.benzimg2{
+  padding-top: 5vh;
+  height: 462px;
+  width: 869.5px;
+  position: absolute;
+  left: 12%;
+  top: 27%;
+  background-image:url(/images/gallery/benz2.png);
+  background-repeat: no-repeat;
+}
+.benzimg4{
+  position: absolute;
+    right: 12%;
+    top: 71%;
+  width: 516px;
+  height: 365px;
+  background-image:url(/images/gallery/benz4.png);
+  background-repeat: no-repeat;
+}
+.benzimg1{
+  width: 600px;
+  height: 290px;
+  position: absolute;
+  top: 2%;
+  left: 12%;
+  background-image:url(/images/gallery/benz1.png);
+}
+.benzdesign{
+  position: absolute;
+    left: 24%;
+    top: 71%;
+}
+.benzdesign h1{
+  text-align: center;
+  margin-top: 10vh;
+  font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+.benzdetails .pargraph2{
   width: 608px;
   text-align: center;
   font-size: 16px;
@@ -235,3 +312,253 @@ header .active {
   color: #fff;
 }
 
+.forddetails .pargraph1{
+  width: 608px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #fff;
+  padding-left: 16vw;
+  margin-top: 10vh;
+}
+.forddetails .pargraph2{
+  width: 608px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+.forddetails {
+  width: 100vw;
+  height: 1254px;
+  background-color: #262a32;
+  position: relative;
+  border-bottom: 1px solid #ffffff6b;
+  display: none;
+}
+.fordimg3{
+  position: absolute;
+    left: 12%;
+    top: 32%;
+  height: 462px;
+  width: 811px;
+  background-image:url(/images/gallery/ford3.png);
+  background-repeat: no-repeat;
+}
+.fordimg2{
+  padding-top: 5vh;
+  height: 462px;
+  width: 869.5px;
+  position: absolute;
+  right: 12%;
+  top: 27%;
+  background-image:url(/images/gallery/ford2.png);
+  background-repeat: no-repeat;
+}
+.fordimg4{
+  position: absolute;
+    left: 12%;
+    top: 71%;
+  width: 516px;
+  height: 365px;
+  background-image:url(/images/gallery/ford4.png);
+}
+.fordimg1{
+  width: 600px;
+  height: 290px;
+  position: absolute;
+  top: 2%;
+  right: 12%;
+  background-image:url(/images/gallery/ford1.png);
+}
+
+.bmwdetails {
+  width: 100vw;
+  height: 1254px;
+  background-color: #262a32;
+  position: relative;
+  border-bottom: 1px solid #ffffff6b;
+  display: none;
+}
+
+.bmwdetails .pargraph1{
+  width: 608px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #fff;
+  padding-left: 50vw;
+  margin-top: 8vh;
+}
+.bmwimg3{
+  position: absolute;
+    right: 11%;
+    top: 32%;
+  height: 462px;
+  width: 811px;
+  background-image:url(/images/gallery/bm3.png);
+  background-repeat: no-repeat;
+}
+.bmwimg2{
+  padding-top: 5vh;
+  height: 462px;
+  width: 869.5px;
+  position: absolute;
+  left: 12%;
+  top: 27%;
+  background-image:url(/images/gallery/bmw2.png);
+  background-repeat: no-repeat;
+}
+.bmwimg4{
+  position: absolute;
+    right: 12%;
+    top: 71%;
+  width: 516px;
+  height: 365px;
+  background-image:url(/images/gallery/bmw4.png);
+  background-repeat: no-repeat;
+}
+.bmwimg1{
+  width: 600px;
+  height: 290px;
+  position: absolute;
+  top: 2%;
+  left: 12%;
+  background-image:url(/images/gallery/bmw1.png);
+}
+
+.bmwdetails .pargraph2{
+  width: 608px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+
+.urusdetails .pargraph1{
+  width: 608px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #fff;
+  padding-left: 16vw;
+  margin-top: 10vh;
+}
+.urusdetails .pargraph2{
+  width: 608px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+.urusdetails {
+  width: 100vw;
+  height: 1254px;
+  background-color: #262a32;
+  position: relative;
+  border-bottom: 1px solid #ffffff6b;
+  display: none;
+}
+.urusimg3{
+  position: absolute;
+    left: 12%;
+    top: 32%;
+  height: 462px;
+  width: 811px;
+  background-image:url(/images/gallery/urus3.png);
+  background-repeat: no-repeat;
+}
+.urusimg2{
+  padding-top: 5vh;
+  height: 462px;
+  width: 869.5px;
+  position: absolute;
+  right: 12%;
+  top: 27%;
+  background-image:url(/images/gallery/urus2.png);
+  background-repeat: no-repeat;
+}
+.urusimg4{
+  position: absolute;
+    left: 12%;
+    top: 71%;
+  width: 516px;
+  height: 365px;
+  background-image:url(/images/gallery/urus4.png);
+  background-repeat: no-repeat;
+}
+.urusimg1{
+  width: 600px;
+  height: 290px;
+  position: absolute;
+  top: 2%;
+  right: 12%;
+  background-image:url(/images/gallery/urus1.png);
+}
+
+.audidetails {
+  width: 100vw;
+  height: 1254px;
+  background-color: #262a32;
+  position: relative;
+  border-bottom: 1px solid #ffffff6b;
+  display: none;
+}
+
+.audidetails .pargraph1{
+  width: 608px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #fff;
+  padding-left: 50vw;
+  margin-top: 8vh;
+}
+.audiimg3{
+  position: absolute;
+    right: 11%;
+    top: 32%;
+  height: 462px;
+  width: 811px;
+  background-image:url(/images/gallery/audi3.png);
+  background-repeat: no-repeat;
+}
+.audiimg2{
+  padding-top: 5vh;
+  height: 462px;
+  width: 869.5px;
+  position: absolute;
+  left: 12%;
+  top: 27%;
+  background-image:url(/images/gallery/audi2.png);
+  background-repeat: no-repeat;
+}
+.audiimg4{
+  position: absolute;
+    right: 12%;
+    top: 71%;
+  width: 516px;
+  height: 365px;
+  background-image:url(/images/gallery/audi4.png);
+  background-repeat: no-repeat;
+}
+.audiimg1{
+  width: 600px;
+  height: 290px;
+  position: absolute;
+  top: 2%;
+  left: 12%;
+  background-image:url(/images/gallery/audi1.png);
+}
+
+.audidetails .pargraph2{
+  width: 608px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
